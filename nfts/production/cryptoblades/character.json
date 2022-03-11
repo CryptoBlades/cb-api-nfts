@@ -3,6 +3,7 @@
     "type": "cb",
     "subtype": "character",
     "preprocessor": "character",
+    "artsgenerator": "character",
     "template": "character"
   },
   "abi": {
