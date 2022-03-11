@@ -1,5 +1,6 @@
 {
   "token": {
+    "name": "CryptoBlades Weapons",
     "type": "cb",
     "subtype": "weapon",
     "preprocessor": "weapon",
