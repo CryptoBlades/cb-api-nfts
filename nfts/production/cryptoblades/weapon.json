@@ -4,7 +4,8 @@
     "subtype": "weapon",
     "preprocessor": "weapon",
     "artsgenerator": "weapon",
-    "template": "weapon"
+    "template": "weapon",
+    "getmethod": "get"
   },
   "abi": {
     "file": "Weapons.json",
