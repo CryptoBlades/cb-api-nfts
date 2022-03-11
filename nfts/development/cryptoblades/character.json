@@ -4,7 +4,8 @@
     "subtype": "character",
     "preprocessor": "character",
     "artsgenerator": "character",
-    "template": "character"
+    "template": "character",
+    "getmethod": "get"
   },
   "abi": {
     "file": "Characters.json",
