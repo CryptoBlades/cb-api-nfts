@@ -1,0 +1,7 @@
+{
+    "packages": [
+        "cb-character",
+        "cb-weapon",
+        "cb-shield"
+    ]
+}
