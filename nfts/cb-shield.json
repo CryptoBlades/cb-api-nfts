@@ -1,0 +1,98 @@
+{
+  "name": "Shields",
+  "preprocessor": "cb-shield.js",
+  "template": "cb-shield.vue",
+  "artsgenerator": "cb-shield.js",
+  "token": {
+    "method": "get",
+    "contractAddress": {
+      "testnet": {
+        "BSC": "0xF3e470DceE011E55b8912ebC58499CE33c863A17"
+      },
+      "mainnet": {
+        "BSC": "0xf9E9F6019631bBE7db1B71Ec4262778eb6C3c520",
+        "HECO": "0xb4eD70aC5B00ca0fd9526089489979e116E45ec0",
+        "OEC": "0x8c52FabF2442b0EB83518DaB93A8073Ce5B0BA15",
+        "POLYGON": "0x68a288c2A96e2cd5c45769e02f2bbc2E90BAE39B",
+        "AVAX": "0x1609BD8ea43b1c23dE90071B82CD08FA098DdCF3"
+      }
+    }
+  },
+  "abi": {
+    "filename": "Shields.json",
+    "url": "https://app.cryptoblades.io/abi/"
+  },
+  "ui": {
+    "pagination": {
+      "perPage": 60
+    },
+    "sortValues": {
+      "asc": "1",
+      "desc": "-1"
+    },
+    "sorts": [
+      {
+        "name": "id",
+        "apiField": "sort[props.id]"
+      },
+      {
+        "name": "price",
+        "apiField": "sort[props.price]"
+      }
+    ],
+    "filters": {
+      "element": {
+        "name": "Element",
+        "apiField": "props.element",
+        "type": "checkbox",
+        "props": {
+          "values": ["fire", "earth", "water", "lightning"]
+        }
+      },
+      "minPrice": {
+        "name": "Min Price",
+        "apiField": "price.min",
+        "type": "number",
+        "props": {
+          "value": 0,
+          "min": 0,
+          "max": 1000000,
+          "step": 0.001
+        }
+      },
+      "maxPrice": {
+        "name": "Max Price",
+        "apiField": "price.max",
+        "type": "number",
+        "props": {
+          "value": 1000000,
+          "min": 0,
+          "max": 1000000,
+          "step": 0.001
+        }
+      },
+      "minStars": {
+        "name": "Min Stars",
+        "apiField": "props.stars.min",
+        "type": "number",
+        "props": {
+          "value": 0,
+          "min": 0,
+          "max": 4,
+          "step": 1
+        }
+      },
+      "maxStars": {
+        "name": "Max Stars",
+        "apiField": "props.stars.max",
+        "type": "number",
+        "props": {
+          "value": 4,
+          "min": 0,
+          "max": 4,
+          "step": 1
+        }
+      }
+    }
+  }
+}
