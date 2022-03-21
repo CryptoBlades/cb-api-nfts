@@ -6,10 +6,10 @@
   "token": {
     "method": "get",
     "contractAddress": {
-      "testnet": {
+      "development": {
         "BSC": "0x149529De3BDA6F95FbF027275DC5d7ccc270D5Bd"
       },
-      "mainnet": {
+      "production": {
         "BSC": "0xc6f252c2CdD4087e30608A35c022ce490B58179b",
         "HECO": "0xF6092CDEaabd02069cB56E2b770367AAcf49dfba",
         "OEC": "0x6A1d1803d4EDF5CF27EDb64ae95A22F81707eA38",
@@ -20,7 +20,7 @@
   },
   "abi": {
     "filename": "Characters.json",
-    "url": "https://app.cryptoblades.io/abi/"
+    "source": "https://app.cryptoblades.io/abi/Characters.json"
   },
   "ui": {
     "pagination": {
