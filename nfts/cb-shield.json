@@ -6,8 +6,8 @@
   "token": {
     "method": "get",
     "contractAddress": {
-      "testnet": { "BSC": "0xF3e470DceE011E55b8912ebC58499CE33c863A17" },
-      "mainnet": {
+      "test": { "BSC": "0xF3e470DceE011E55b8912ebC58499CE33c863A17" },
+      "production": {
         "BSC": "0xf9E9F6019631bBE7db1B71Ec4262778eb6C3c520",
         "HECO": "0xb4eD70aC5B00ca0fd9526089489979e116E45ec0",
         "OEC": "0x8c52FabF2442b0EB83518DaB93A8073Ce5B0BA15",
