@@ -6,10 +6,8 @@
   "token": {
     "method": "get",
     "contractAddress": {
-      "development": {
-        "BSC": "0x672E4CddA311b3BfAd1e09313241C62B4eFF5782"
-      },
-      "production": {
+      "testnet": { "BSC": "0x672E4CddA311b3BfAd1e09313241C62B4eFF5782" },
+      "mainnet": {
         "BSC": "0x7E091b0a220356B157131c831258A9C98aC8031A",
         "HECO": "0xa0f254436E43239D2B3947A9D590C495738B6A4C",
         "OEC": "0x364759180A6484e57ECD73C042264A6Da75770e8",
@@ -23,75 +21,42 @@
     "source": "https://app.cryptoblades.io/abi/Weapons.json"
   },
   "ui": {
-    "pagination": {
-      "perPage": 60
-    },
-    "sortValues": {
-      "asc": "1",
-      "desc": "-1"
-    },
+    "pagination": { "perPage": 60 },
+    "sortValues": { "asc": "1", "desc": "-1" },
     "sorts": [
-      {
-        "name": "id",
-        "apiField": "sort[props.id]"
-      },
-      {
-        "name": "price",
-        "apiField": "sort[props.price]"
-      }
+      { "name": "id", "apiField": "sort[props.id]" },
+      { "name": "price", "apiField": "sort[props.price]" }
     ],
     "filters": {
       "element": {
         "name": "Element",
         "apiField": "props.element",
         "type": "checkbox",
-        "props": {
-          "values": ["fire", "earth", "water", "lightning"]
-        }
+        "props": { "values": ["fire", "earth", "water", "lightning"] }
       },
       "minPrice": {
         "name": "Min Price",
         "apiField": "price.min",
         "type": "number",
-        "props": {
-          "value": 0,
-          "min": 0,
-          "max": 1000000,
-          "step": 0.001
-        }
+        "props": { "value": 0, "min": 0, "max": 1000000, "step": 0.001 }
       },
       "maxPrice": {
         "name": "Max Price",
         "apiField": "price.max",
         "type": "number",
-        "props": {
-          "value": 1000000,
-          "min": 0,
-          "max": 1000000,
-          "step": 0.001
-        }
+        "props": { "value": 1000000, "min": 0, "max": 1000000, "step": 0.001 }
       },
       "minStars": {
         "name": "Min Stars",
         "apiField": "props.stars.min",
         "type": "number",
-        "props": {
-          "value": 0,
-          "min": 0,
-          "max": 4,
-          "step": 1
-        }
+        "props": { "value": 0, "min": 0, "max": 4, "step": 1 }
       },
       "maxStars": {
         "name": "Max Stars",
         "apiField": "props.stars.max",
         "type": "number",
-        "props": {
-          "value": 4,
-          "min": 0,
-          "max": 4,
-          "step": 1
-        }
+        "props": { "value": 4, "min": 0, "max": 4, "step": 1 }
       }
     }
   }

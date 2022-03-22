@@ -6,10 +6,8 @@
   "token": {
     "method": "get",
     "contractAddress": {
-      "development": {
-        "BSC": "0x149529De3BDA6F95FbF027275DC5d7ccc270D5Bd"
-      },
-      "production": {
+      "testnet": { "BSC": "0x149529De3BDA6F95FbF027275DC5d7ccc270D5Bd" },
+      "mainnet": {
         "BSC": "0xc6f252c2CdD4087e30608A35c022ce490B58179b",
         "HECO": "0xF6092CDEaabd02069cB56E2b770367AAcf49dfba",
         "OEC": "0x6A1d1803d4EDF5CF27EDb64ae95A22F81707eA38",
@@ -23,75 +21,42 @@
     "source": "https://app.cryptoblades.io/abi/Characters.json"
   },
   "ui": {
-    "pagination": {
-      "perPage": 60
-    },
-    "sortValues": {
-      "asc": "1",
-      "desc": "-1"
-    },
+    "pagination": { "perPage": 60 },
+    "sortValues": { "asc": "1", "desc": "-1" },
     "sorts": [
-      {
-        "name": "id",
-        "apiField": "sort[props.id]"
-      },
-      {
-        "name": "price",
-        "apiField": "sort[props.price]"
-      }
+      { "name": "id", "apiField": "sort[props.id]" },
+      { "name": "price", "apiField": "sort[props.price]" }
     ],
     "filters": {
       "element": {
         "name": "Element",
         "apiField": "props.element",
         "type": "checkbox",
-        "props": {
-          "values": ["fire", "earth", "water", "lightning"]
-        }
+        "props": { "values": ["fire", "earth", "water", "lightning"] }
       },
       "minPrice": {
         "name": "Min Price",
         "apiField": "price.min",
         "type": "number",
-        "props": {
-          "value": 0,
-          "min": 0,
-          "max": 1000000,
-          "step": 0.001
-        }
+        "props": { "value": 0, "min": 0, "max": 1000000, "step": 0.001 }
       },
       "maxPrice": {
         "name": "Max Price",
         "apiField": "price.max",
         "type": "number",
-        "props": {
-          "value": 1000000,
-          "min": 0,
-          "max": 1000000,
-          "step": 0.001
-        }
+        "props": { "value": 1000000, "min": 0, "max": 1000000, "step": 0.001 }
       },
       "minLevel": {
         "name": "Min Level",
         "apiField": "props.level.min",
         "type": "number",
-        "props": {
-          "value": 0,
-          "min": 0,
-          "max": 254,
-          "step": 1
-        }
+        "props": { "value": 0, "min": 0, "max": 254, "step": 1 }
       },
       "maxLevel": {
         "name": "Max Level",
         "apiField": "props.level.max",
         "type": "number",
-        "props": {
-          "value": 254,
-          "min": 0,
-          "max": 254,
-          "step": 1
-        }
+        "props": { "value": 254, "min": 0, "max": 254, "step": 1 }
       }
     }
   }
