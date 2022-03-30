@@ -34,18 +34,6 @@
         "type": "checkbox",
         "props": { "values": ["fire", "earth", "water", "lightning"] }
       },
-      "minPrice": {
-        "name": "Min Price",
-        "apiField": "price.min",
-        "type": "number",
-        "props": { "value": 0, "min": 0, "max": 1000000, "step": 0.001 }
-      },
-      "maxPrice": {
-        "name": "Max Price",
-        "apiField": "price.max",
-        "type": "number",
-        "props": { "value": 1000000, "min": 0, "max": 1000000, "step": 0.001 }
-      },
       "minLevel": {
         "name": "Min Level",
         "apiField": "props.level.min",

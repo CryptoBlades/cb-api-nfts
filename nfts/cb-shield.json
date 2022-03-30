@@ -34,29 +34,11 @@
         "type": "checkbox",
         "props": { "values": ["fire", "earth", "water", "lightning"] }
       },
-      "minPrice": {
-        "name": "Min Price",
-        "apiField": "price.min",
-        "type": "number",
-        "props": { "value": 0, "min": 0, "max": 1000000, "step": 0.001 }
-      },
-      "maxPrice": {
-        "name": "Max Price",
-        "apiField": "price.max",
-        "type": "number",
-        "props": { "value": 1000000, "min": 0, "max": 1000000, "step": 0.001 }
-      },
-      "minStars": {
-        "name": "Min Stars",
-        "apiField": "props.stars.min",
-        "type": "number",
-        "props": { "value": 0, "min": 0, "max": 4, "step": 1 }
-      },
-      "maxStars": {
-        "name": "Max Stars",
-        "apiField": "props.stars.max",
-        "type": "number",
-        "props": { "value": 4, "min": 0, "max": 4, "step": 1 }
+      "stars": {
+        "name": "Rarity",
+        "apiField": "props.stars",
+        "type": "checkbox",
+        "props": { "values": ["Normal", "Rare", "Epic", "Mythical", "Legendary", "Unknown"] }
       }
     }
   }
