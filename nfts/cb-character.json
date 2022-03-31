@@ -30,19 +30,19 @@
     "filters": {
       "element": {
         "name": "Element",
-        "apiField": "props.element",
+        "apiField": "element",
         "type": "checkbox",
         "props": { "values": ["fire", "earth", "water", "lightning"] }
       },
       "minLevel": {
         "name": "Min Level",
-        "apiField": "props.level.min",
+        "apiField": "level.min",
         "type": "number",
         "props": { "value": 0, "min": 0, "max": 254, "step": 1 }
       },
       "maxLevel": {
         "name": "Max Level",
-        "apiField": "props.level.max",
+        "apiField": "level.max",
         "type": "number",
         "props": { "value": 254, "min": 0, "max": 254, "step": 1 }
       }

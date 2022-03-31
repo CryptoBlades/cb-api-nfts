@@ -30,13 +30,13 @@
     "filters": {
       "element": {
         "name": "Element",
-        "apiField": "props.element",
+        "apiField": "element",
         "type": "checkbox",
         "props": { "values": ["fire", "earth", "water", "lightning"] }
       },
       "stars": {
         "name": "Rarity",
-        "apiField": "props.stars",
+        "apiField": "stars",
         "type": "checkbox",
         "props": { "values": ["Normal", "Rare", "Epic", "Mythical", "Legendary", "Unknown"] }
       }
