@@ -25,7 +25,7 @@
     "sortValues": { "asc": "1", "desc": "-1" },
     "sorts": [
       { "name": "id", "apiField": "sort[props.id]" },
-      { "name": "price", "apiField": "sort[props.price]" }
+      { "name": "price", "apiField": "sort[price]" }
     ],
     "filters": {
       "element": {

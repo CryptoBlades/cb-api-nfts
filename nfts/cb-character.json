@@ -25,7 +25,7 @@
     "sortValues": { "asc": "1", "desc": "-1" },
     "sorts": [
       { "name": "id", "apiField": "sort[props.id]" },
-      { "name": "price", "apiField": "sort[props.price]" }
+      { "name": "price", "apiField": "sort[price]" }
     ],
     "filters": {
       "element": {
@@ -38,13 +38,13 @@
         "name": "Min Level",
         "apiField": "level.min",
         "type": "number",
-        "props": { "value": 0, "min": 0, "max": 254, "step": 1 }
+        "props": { "value": 1, "min": 1, "max": 255, "step": 1 }
       },
       "maxLevel": {
         "name": "Max Level",
         "apiField": "level.max",
         "type": "number",
-        "props": { "value": 254, "min": 0, "max": 254, "step": 1 }
+        "props": { "value": 255, "min": 1, "max": 255, "step": 1 }
       }
     }
   }
