@@ -32,7 +32,7 @@
         "name": "Element",
         "apiField": "element",
         "type": "checkbox",
-        "props": { "values": ["fire", "earth", "water", "lightning"] }
+        "props": { "values": ["Fire", "Earth", "Water", "Lightning"] }
       },
       "stars": {
         "name": "Rarity",
