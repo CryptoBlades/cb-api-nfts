@@ -1,7 +1,8 @@
 {
   "name": "Weapons",
+  "type": "cb-weapon",
+  "template": "Weapon.vue",
   "preprocessor": "cb-weapon.js",
-  "template": "cb-weapon.vue",
   "artsgenerator": "cb-weapon.js",
   "token": {
     "method": "get",
@@ -38,7 +39,16 @@
         "name": "Rarity",
         "apiField": "stars",
         "type": "checkbox",
-        "props": { "values": ["Normal", "Rare", "Epic", "Mythical", "Legendary", "Unknown"] }
+        "props": {
+          "values": [
+            "Normal",
+            "Rare",
+            "Epic",
+            "Mythical",
+            "Legendary",
+            "Unknown"
+          ]
+        }
       }
     }
   }

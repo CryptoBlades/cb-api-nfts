@@ -1,7 +1,8 @@
 {
   "name": "Characters",
+  "type": "cb-character",
+  "template": "Character.vue",
   "preprocessor": "cb-character.js",
-  "template": "cb-character.vue",
   "artsgenerator": "cb-character.js",
   "token": {
     "method": "get",
