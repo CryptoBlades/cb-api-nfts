@@ -158,7 +158,7 @@ module.exports = (nftdata) => ({
 </template>
 ```
 
-## Arts Generator Example
+## Arts Generator Example (Optional)
 
 ```javascript
 const allImages = ['chara-0.png', 'chara-1.png', 'chara-2.png', 'chara-3.png'];
