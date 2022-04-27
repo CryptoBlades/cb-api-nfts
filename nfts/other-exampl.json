@@ -1,0 +1,57 @@
+{
+  "preprocessor": "cb-character.js", // the file name of the preprocessor script (see the preprocessor example below)
+  "template": "cb-character.vue", // the file name of your vue component (see the template example below)
+  "artsgenerator": "cb-character.js", // the file name of your nft image/arts generator. (see the artsgenerator example below)
+  "token": {
+    "method": "get", // the contract method to retrieve the token data
+    "contractAddress": { 
+      "test": {  // testnet contract addresses
+        "BSC": "0x149529De3BDA6F95FbF027275DC5d7ccc270D5Bd" 
+      },
+      "production": { // mainnet contract addresses
+        "BSC": "0xc6f252c2CdD4087e30608A35c022ce490B58179b",
+        "HECO": "0xF6092CDEaabd02069cB56E2b770367AAcf49dfba",
+        "OEC": "0x6A1d1803d4EDF5CF27EDb64ae95A22F81707eA38",
+        "POLYGON": "0x929059Fef67b88CE2F4127e59B50bEA123981998",
+        "AVAX": "0x28857ccCCa599f0876792094870758A18F581Dc0"
+      }
+    }
+  },
+  "abi": {
+    "filename": "Characters.json", // the file name of your contract ABI
+    "source": "https://app.cryptoblades.io/abi/Characters.json" // the source where your contract ABI is retrievable
+  },
+  "ui": {
+    "pagination": { // do not edit this
+      "perPage": 60 
+    }, 
+    "sortValues": { // do not edit this
+      "asc": "1", 
+      "desc": "-1" 
+    },
+    "sorts": [ // Do not remove `id` and `price`. You can add your custom sorting. Your custom sorting's apiField must be preceded by `props.`. Example: props.element
+      { "name": "id", "apiField": "id" },
+      { "name": "price", "apiField": "price" }
+    ],
+    "filters": { // Your custom filters.
+      "element": { // query type of the filter
+        "name": "Element", // name of the filter
+        "apiField": "element", // apiField
+        "type": "checkbox", // input type. possible values: `text`, `number`, `select`, `checkbox`
+        "props": { "values": ["Fire", "Earth", "Water", "Lightning"] } // input properties. for `checkbox` and `select` types, `values` should contain the enumerated options
+      },
+      "minLevel": {
+        "name": "Min Level",
+        "apiField": "level.min", // range filters must be followed by `min` for minimum and `max` for maximum
+        "type": "number",
+        "props": { "value": 0, "min": 0, "max": 254, "step": 1 }
+      },
+      "maxLevel": {
+        "name": "Max Level",
+        "apiField": "level.max",
+        "type": "number",
+        "props": { "value": 254, "min": 0, "max": 254, "step": 1 }
+      }
+    }
+  }
+}
