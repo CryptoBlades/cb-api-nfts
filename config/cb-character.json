@@ -7,9 +7,9 @@
   "token": {
     "method": "get",
     "contractAddress": {
-      "test": { "BSC": "0x149529De3BDA6F95FbF027275DC5d7ccc270D5Bd" },
+      "test": { "BNB": "0x149529De3BDA6F95FbF027275DC5d7ccc270D5Bd" },
       "production": {
-        "BSC": "0xc6f252c2CdD4087e30608A35c022ce490B58179b",
+        "BNB": "0xc6f252c2CdD4087e30608A35c022ce490B58179b",
         "HECO": "0xF6092CDEaabd02069cB56E2b770367AAcf49dfba",
         "OEC": "0x6A1d1803d4EDF5CF27EDb64ae95A22F81707eA38",
         "POLYGON": "0x929059Fef67b88CE2F4127e59B50bEA123981998",
