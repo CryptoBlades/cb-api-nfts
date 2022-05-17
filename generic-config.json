@@ -1,8 +1,15 @@
 {
     "packages": [
-        "cb-character",
-        "cb-weapon",
-        "cb-shield",
-        "cb-junk"
+       "cryptoblades": [
+            "cb-character",
+            "cb-weapon",
+            "cb-shield",
+            "cb-junk" 
+        ]//,        
+        /*"mygame":[
+            "some-nft-category",
+            "some-nft-category",
+            "some-nft-category",
+        ]*/
     ]
 }
