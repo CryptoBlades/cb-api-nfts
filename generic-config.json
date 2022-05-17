@@ -5,11 +5,6 @@
             "cb-weapon",
             "cb-shield",
             "cb-junk" 
-        ]//,        
-        /*"mygame":[
-            "some-nft-category",
-            "some-nft-category",
-            "some-nft-category",
-        ]*/
+        ]
     ]
 }
