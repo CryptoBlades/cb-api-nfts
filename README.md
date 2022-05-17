@@ -1,3 +1,22 @@
+## Generic Config
+```json
+{
+    "packages": [
+       "cryptoblades": [
+            "cb-character",
+            "cb-weapon",
+            "cb-shield",
+            "cb-junk" 
+        ],
+        "mygame":[
+            "some-nft-category",
+            "some-nft-category",
+            "some-nft-category",
+        ]
+    ]
+}
+```
+
 ## NFT Config Example
 
 ```json
