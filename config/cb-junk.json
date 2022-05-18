@@ -1,6 +1,7 @@
 {
   "name": "Junk",
   "type": "cb-junk",
+  "collection": "cryptoblades",
   "template": "Junk.vue",
   "preprocessor": "cb-junk.js",
   "artsgenerator": "cb-junk.js",
