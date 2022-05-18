@@ -1,6 +1,7 @@
 {
   "name": "Shields",
   "type": "cb-shield",
+  "collection": "cryptoblades",
   "template": "Shield.vue",
   "preprocessor": "cb-shield.js",
   "artsgenerator": "cb-shield.js",
