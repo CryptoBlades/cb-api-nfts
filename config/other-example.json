@@ -2,6 +2,7 @@
   "preprocessor": "cb-character.js", // the file name of the preprocessor script (see the preprocessor example below)
   "template": "Character.vue", // the file name of your vue component (see the template example below)
   "type": "other-example",
+  "collection": "myCollection",
   "artsgenerator": "cb-character.js", // the file name of your nft image/arts generator. (see the artsgenerator example below)
   "token": {
     "method": "get", // the contract method to retrieve the token data
