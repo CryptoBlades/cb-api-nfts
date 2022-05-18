@@ -1,10 +1,10 @@
 {
-    "packages": [
+    "packages": {
        "cryptoblades": [
             "cb-character",
             "cb-weapon",
             "cb-shield",
             "cb-junk" 
         ]
-    ]
+    }
 }
