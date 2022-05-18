@@ -1,6 +1,7 @@
 {
   "name": "Weapons",
   "type": "cb-weapon",
+  "collection": "cryptoblades",
   "template": "Weapon.vue",
   "preprocessor": "cb-weapon.js",
   "artsgenerator": "cb-weapon.js",
