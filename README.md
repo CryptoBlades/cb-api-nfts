@@ -21,21 +21,20 @@
 
 ```json
 {
+  "name": "Example",
+  "type": "other-example",
+  "collection": "myCollection",
+  "template": "Character.vue", // the file name of your vue component (see the template example below)
   "preprocessor": "cb-character.js", // the file name of the preprocessor script (see the preprocessor example below)
-  "template": "cb-character.vue", // the file name of your vue component (see the template example below)
   "artsgenerator": "cb-character.js", // the file name of your nft image/arts generator. (see the artsgenerator example below)
   "token": {
     "method": "get", // the contract method to retrieve the token data
     "contractAddress": { 
       "test": {  // testnet contract addresses
-        "BSC": "0x149529De3BDA6F95FbF027275DC5d7ccc270D5Bd" 
+        "BSC": "0x12345....." 
       },
       "production": { // mainnet contract addresses
-        "BSC": "0xc6f252c2CdD4087e30608A35c022ce490B58179b",
-        "HECO": "0xF6092CDEaabd02069cB56E2b770367AAcf49dfba",
-        "OEC": "0x6A1d1803d4EDF5CF27EDb64ae95A22F81707eA38",
-        "POLYGON": "0x929059Fef67b88CE2F4127e59B50bEA123981998",
-        "AVAX": "0x28857ccCCa599f0876792094870758A18F581Dc0"
+        "BSC": "0x12345....."
       }
     }
   },
