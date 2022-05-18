@@ -1,7 +1,7 @@
 ## Generic Config
 ```json
 {
-    "packages": [
+    "packages": {
        "cryptoblades": [
             "cb-character",
             "cb-weapon",
@@ -13,7 +13,7 @@
             "some-nft-category",
             "some-nft-category",
         ]
-    ]
+    }
 }
 ```
 
