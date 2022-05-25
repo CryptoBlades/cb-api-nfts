@@ -1,0 +1,22 @@
+{
+  "preprocessor": "", // the file name of the preprocessor script (see the preprocessor example below)
+  "template": "", // the file name of your vue component (see the template example below)
+  "type": "other-example",
+  "artsgenerator": "", // the file name of your nft image/arts generator. (see the artsgenerator example below)
+  "token": {
+    "method": "", // the contract method to retrieve the token data
+    "contractAddress": {
+      "test": {
+        "BSC": "0x6106be6eb25D4fF2b37BB8Dd11Cbc7F506786875"
+      },
+      "production": { // mainnet contract addresses
+        "BSC": "",
+      }
+    }
+  },
+  "abi": {
+    "filename": "VRFv2Consumer.json", // the file name of your contract ABI
+    "source": "./VRFv2Consumer.json" // the source where your contract ABI is retrievable
+  },
+  "ui": {}
+}
