@@ -15,8 +15,8 @@
     }
   },
   "abi": {
-    "filename": "Nft.json", // the file name of your contract ABI
-    "source": "./Nft.json" // the source where your contract ABI is retrievable
+    "filename": "abi-nft.json", // the file name of your contract ABI
+    "source": "./abi-nft.json" // the source where your contract ABI is retrievable
   },
   "ui": {}
 }
