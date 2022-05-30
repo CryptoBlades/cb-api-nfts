@@ -16,7 +16,7 @@
   },
   "abi": {
     "filename": "abi-nft.json", // the file name of your contract ABI
-    "source": "https://github.com/Ksuyaresko/cb-api-nfts/blob/dev/cryptobattles/abi-nft.json" // the source where your contract ABI is retrievable
+    "source": "https://github.com/Ksuyaresko/betting-abi/blob/master/abi-nft.json" // the source where your contract ABI is retrievable
   },
   "ui": {}
 }
