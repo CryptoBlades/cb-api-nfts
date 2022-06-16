@@ -1,22 +1,22 @@
 {
-  "preprocessor": "cryptobattles.js", // the file name of the preprocessor script (see the preprocessor example below)
-  "template": "", // the file name of your vue component (see the template example below)
+  "preprocessor": "cryptobattles.js",
+  "template": "",
   "type": "other-example",
-  "artsgenerator": "", // the file name of your nft image/arts generator. (see the artsgenerator example below)
+  "artsgenerator": "",
   "token": {
-    "method": "get", // the contract method to retrieve the token data
+    "method": "get",
     "contractAddress": { 
-      "test": {  // testnet contract addresses
+      "test": {
         "BSC": "0x1034E332aEe10a0d0e0017c607B1276aCA541022"
       },
-      "production": { // mainnet contract addresses
-        "BSC": "",
+      "production": {
+        "BSC": ""
       }
     }
   },
   "abi": {
-    "filename": "abi-nft.json", // the file name of your contract ABI
-    "source": "https://github.com/Ksuyaresko/betting-abi/blob/master/abi-nft.json" // the source where your contract ABI is retrievable
+    "filename": "abi-nft.json",
+    "source": "https://github.com/Ksuyaresko/betting-abi/blob/master/abi-nft.json"
   },
   "ui": {}
 }
