@@ -2,6 +2,7 @@ const utils = require('./cb-utils');
 
 module.exports = (id, props) => {
   const xp = props[0];
+  const trait = props[2];
   const level = parseInt(props[1], 10);
   const element = utils.traitNumberToName(+props[2]);
   const staminaTimestamp = props[3];
@@ -14,6 +15,7 @@ module.exports = (id, props) => {
 
   return {
     id,
+    trait,
     xp,
     level,
     element,
