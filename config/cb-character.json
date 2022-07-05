@@ -4,6 +4,7 @@
   "collection": "cryptoblades",
   "template": "Character.vue",
   "preprocessor": "cb-character.js",
+  "image": "generator",
   "artsgenerator": "cb-character.js",
   "token": {
     "method": "get",

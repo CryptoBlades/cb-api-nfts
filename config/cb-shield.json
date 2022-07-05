@@ -4,6 +4,7 @@
   "collection": "cryptoblades",
   "template": "Shield.vue",
   "preprocessor": "cb-shield.js",
+  "image": "generator",
   "artsgenerator": "cb-shield.js",
   "token": {
     "method": "get",

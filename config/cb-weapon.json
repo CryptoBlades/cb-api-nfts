@@ -4,6 +4,7 @@
   "collection": "cryptoblades",
   "template": "Weapon.vue",
   "preprocessor": "cb-weapon.js",
+  "image": "generator",
   "artsgenerator": "cb-weapon.js",
   "token": {
     "method": "get",

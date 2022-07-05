@@ -4,6 +4,7 @@
   "collection": "cryptoblades",
   "template": "Junk.vue",
   "preprocessor": "cb-junk.js",
+  "image": "generator",
   "artsgenerator": "cb-junk.js",
   "token": {
     "method": "get",
