@@ -7,10 +7,10 @@
     "method": "get",
     "contractAddress": { 
       "test": {
-        "BSC": "0x1034E332aEe10a0d0e0017c607B1276aCA541022"
+        "rinkeby": "0x3eF6BD12c1BBedA785d494Ef9214bEE3CB5aD0D9"
       },
       "production": {
-        "BSC": ""
+        "BSC": "0x1034E332aEe10a0d0e0017c607B1276aCA541022"
       }
     }
   },
