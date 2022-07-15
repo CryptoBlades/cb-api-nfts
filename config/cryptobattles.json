@@ -16,7 +16,7 @@
   },
   "abi": {
     "filename": "abi-nft.json",
-    "source": "https://github.com/Ksuyaresko/betting-abi/blob/master/abi-nft.json"
+    "source": "https://raw.githubusercontent.com/Ksuyaresko/betting-abi/master/abi-nft.json"
   },
   "ui": {}
 }
