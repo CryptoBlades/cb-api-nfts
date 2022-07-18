@@ -1,8 +1,12 @@
 {
+  "name": "CryptoBattles",
   "preprocessor": "cryptobattles.js",
+  "collection": "cryptobattles",
   "template": "",
-  "type": "other-example",
+  "type": "cbt-nft",
+  "image": "ipfs"
   "artsgenerator": "",
+  "preprocessor": "cbt-nft.js",
   "token": {
     "method": "get",
     "contractAddress": { 
@@ -17,6 +21,17 @@
   "abi": {
     "filename": "abi-nft.json",
     "source": "https://raw.githubusercontent.com/Ksuyaresko/betting-abi/master/abi-nft.json"
-  },
-  "ui": {}
+  },  
+  "ui": {
+    "pagination": {
+      "perPage": 60 
+    }, 
+    "sortValues": {
+      "asc": "1", 
+      "desc": "-1" 
+    },
+    "sorts": [
+      { "name": "id", "apiField": "id" },
+      { "name": "price", "apiField": "price" }
+    ],
 }
