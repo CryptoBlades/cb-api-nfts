@@ -7,7 +7,7 @@
     "method": "get",
     "contractAddress": { 
       "test": {
-        "rinkeby": "0x3eF6BD12c1BBedA785d494Ef9214bEE3CB5aD0D9"
+        "BSC": "0xD5843dE7b402458ad6D204e7536117D31E71929b"
       },
       "production": {
         "BSC": "0x1034E332aEe10a0d0e0017c607B1276aCA541022"
