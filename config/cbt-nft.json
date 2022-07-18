@@ -1,6 +1,6 @@
 {
   "name": "CryptoBattles",
-  "preprocessor": "cryptobattles.js",
+  "preprocessor": "cbt-nft.js",
   "collection": "cryptobattles",
   "template": "",
   "type": "cbt-nft",
