@@ -4,7 +4,10 @@
     "template": "",
     "type": "cbt-nft",
     "image": "ipfs",
-    "artsgenerator": "",
+    "artsgenerator": {
+        "script": "",
+        "root": ""
+    },
     "preprocessor": "cbt-nft.js",
     "token": {
         "method": "get",
