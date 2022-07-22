@@ -33,5 +33,6 @@
     "sorts": [
       { "name": "id", "apiField": "id" },
       { "name": "price", "apiField": "price" }
-    ],
+    ]
+  }
 }
