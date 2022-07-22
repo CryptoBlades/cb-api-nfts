@@ -5,7 +5,10 @@
   "template": "Shield.vue",
   "preprocessor": "cb-shield.js",
   "image": "generator",
-  "artsgenerator": "cb-shield.js",
+  "artsgenerator": {
+    "script": "cb-shield.js",
+    "root": "https://api.cryptoblades.io/nfts/images/cb-shield/"
+  },
   "token": {
     "method": "get",
     "contractAddress": {
