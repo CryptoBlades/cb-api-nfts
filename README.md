@@ -27,9 +27,9 @@
   "template": "Character.vue", // the file name of your vue component (see the template example below)
   "preprocessor": "cb-character.js", // the file name of the preprocessor script (see the preprocessor example below)
   "image": "generator", // "ipfs or generator. (If generator, please provide the 'artsgenerator' file")
-  "artsgenerator": {
-      "script": "cb-character.js", //(optional) the file name of your nft image/arts generator. (see the artsgenerator example below)
-      "root": "https://api.cryptoblades.io/nfts/images/cb-character/"
+  "artsgenerator": { // (optional)
+      "script": "cb-character.js", // the file name of your nft image/arts generator. (see the artsgenerator example below)
+      "root": "https://api.cryptoblades.io/nfts/images/cb-character/" // the base url of your images directory
   },
   "token": {
     "method": "get", // the contract method to retrieve the token data
