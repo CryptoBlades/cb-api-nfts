@@ -4,8 +4,11 @@
   "collection": "cryptoblades",
   "template": "Junk.vue",
   "preprocessor": "cb-junk.js",
-  "image": "generator",
-  "artsgenerator": "cb-junk.js",
+  "image": "generator
+  "artsgenerator": {
+    "script": "cb-junk.js",
+    "root": "https://api.cryptoblades.io/nfts/images/cb-junk/"
+  },
   "token": {
     "method": "get",
     "contractAddress": {
