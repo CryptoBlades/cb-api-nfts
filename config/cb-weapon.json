@@ -5,7 +5,10 @@
   "template": "Weapon.vue",
   "preprocessor": "cb-weapon.js",
   "image": "generator",
-  "artsgenerator": "cb-weapon.js",
+  "artsgenerator": {
+    "script": "cb-weapon.js",
+    "root": "https://api.cryptoblades.io/nfts/images/cb-weapon/"
+  },
   "token": {
     "method": "get",
     "contractAddress": {
