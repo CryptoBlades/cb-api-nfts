@@ -7,31 +7,37 @@
     "artsgenerator": "",
     "preprocessor": "cbt-nft.js",
     "token": {
-      "method": "get",
-      "contractAddress": { 
-        "test": {
-          "BSC": "0xD5843dE7b402458ad6D204e7536117D31E71929b"
-        },
-        "production": {
-          "BSC": "0x1034E332aEe10a0d0e0017c607B1276aCA541022"
+        "method": "get",
+        "contractAddress": {
+            "test": {
+                "BSC": "0xD5843dE7b402458ad6D204e7536117D31E71929b"
+            },
+            "production": {
+                "BSC": "0x1034E332aEe10a0d0e0017c607B1276aCA541022"
+            }
         }
-      }
     },
     "abi": {
-      "filename": "abi-nft.json",
-      "source": "https://raw.githubusercontent.com/Ksuyaresko/betting-abi/master/abi-nft.json"
-    },  
+        "filename": "abi-nft.json",
+        "source": "https://raw.githubusercontent.com/Ksuyaresko/betting-abi/master/abi-nft.json"
+    },
     "ui": {
-      "pagination": {
-        "perPage": 60 
-      }, 
-      "sortValues": {
-        "asc": "1", 
-        "desc": "-1" 
-      },
-      "sorts": [
-        { "name": "id", "apiField": "id" },
-        { "name": "price", "apiField": "price" }
-      ]
+        "pagination": {
+            "perPage": 60
+        },
+        "sortValues": {
+            "asc": "1",
+            "desc": "-1"
+        },
+        "sorts": [
+            {
+                "name": "id",
+                "apiField": "id"
+            },
+            {
+                "name": "price",
+                "apiField": "price"
+            }
+        ]
     }
-  }
+}
