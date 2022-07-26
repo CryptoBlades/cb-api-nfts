@@ -2,7 +2,7 @@
     "name": "Characters",
     "type": "cb-character",
     "collection": "cryptoblades",
-    "template": "Character.vue",
+    "template": "character",
     "preprocessor": "cb-character.js",
     "image": "generator",
     "artsgenerator": {

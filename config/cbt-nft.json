@@ -1,7 +1,7 @@
 {
     "name": "CryptoBattles",
     "collection": "cryptobattles",
-    "template": "",
+    "template": "nft",
     "type": "cbt-nft",
     "image": "ipfs",
     "artsgenerator": {
